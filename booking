@@ -1,21 +1,46 @@
 package project;
 import java.util.Scanner;
-public class booking 
-{
-  
-    public booking() {
-    	
+
+
+public class booking
+{ 
+    String theatersname;
+    String moviename;
+    String seats;  
+    String amount;
+    
+    booking()
+    {
+     
+        this.theatersname="";
+    }
+    void bookng(String theatersname,String moviename,String seats,String amount)
+    {
+        this.theatersname=theatersname;
+        this.moviename=moviename;
+        this.seats=seats;
+        this.amount=amount;
+ 
+    }
+	public String booking(String string, String string2,int i,int j ) {
+		// TODO Auto-generated method stub
+		return "booked";
 	}
 	public static void main(String[] args)
 	{
-	Scanner sc=new Scanner(System.in);
-	System.out.print("Enter Theater name:");
+		
+		int i,j;
+		String s1,s2;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter Theater name:");
 		s1=sc.nextLine();
 		System.out.println("Enter Movie name:");
 		s2=sc.nextLine();
-		String theatersname;
-	    	String moviename;   
-	    	int seats;
-        int amount;
+		System.out.println("Enter seats:");
+		i=sc.nextInt();
+		System.out.println("Enter amount:");
+		i=sc.nextInt();
+	
 	}
+	
 }
