@@ -1,0 +1,15 @@
+package project;
+public class booking 
+{
+  
+    public booking() {
+    	
+	}
+	public static void main(String[] args)
+	{
+		String theatersname;
+	    	String moviename;   
+	    	int seats;
+        int amount;
+	}
+}
